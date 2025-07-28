@@ -16,6 +16,9 @@ Con base al esquema de circuito MCU, se programaran las siguientes tareas: <br /
 <p align="left">
   <img src="/images/st1_p887.png"></img>
 </p>
+<p align="left">
+  <img src="/images/st1_m328.png"></img>
+</p>
 <br />
 
 ### - ST3 - Control de Puertos y Comunicacion [PIC 4MHZ]
