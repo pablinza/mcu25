@@ -14,13 +14,19 @@ Cada carpeta del proyecto MPLABX tiene el nombre precedido por el numero de acti
 </p>
 Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog. la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion.
 
-### - ST3 - Multiplexor de 2 Canales con datos de 4-bit [MUX2S4B]
-<p align="center">
+### - ST3 - Configuracion de Puertos [PIC 4MHZ]
+Con base al esquema de circuito MCU, se programaran las siguientes tareas: <br />
+1. Destello LED en pin RE2 cada segundo. (20% dt)
+2. Lectura pulsador RB4 para desplazamiento de leds RD0 al RD7
+3. Lectura pulsador RB5 para desplazamiento de leds RD7 al RD7
+4. Enviar mensaje de pulsador presionado
+5. Lectura de valor canal ANS0
+6. Muestra nuevo valor digital ANS0
+<p align="left">
   <img src="/images/st3_p887.png"></img>
 </p>
-Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog. la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion.
 
-### - ST5 - Sistema de control ADC y Pantalla LCD [MUX2S4B]
+### - ST5 - Sistema de control ADC y Pantalla LCD [PIC 8MHz]
 Con base al esquema de circuito MCU, se programaran las siguientes tareas: <br />
 1. Destello de led RE2 con 10% de nivel activo
 2. Lectura del sensor conectado al canal ANS0 
