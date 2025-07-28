@@ -8,13 +8,17 @@ Para cargar el firmware al microcontrolador necesitaras un programador ICSP, com
 Cada carpeta del proyecto MPLABX tiene el nombre precedido por el numero de actividad, en su estructura encontrara los del programa principal con nombre __main.c__ y librerias de uso local, una vez compilado el codigo se genera el firmware del programa __.hex__ en la carpeta dist/default/production. <br />
 
 ## Lista de practicas desarrolladas con Microcontrolador
-### - ST1 - Multiplexor de 2 Canales con datos de 4-bit [MUX2S4B]
-<p align="center">
+### - ST1 - Configuracion de Registros y Puertos [PIC/AVR]
+Con base al esquema de circuito MCU, se programaran las siguientes tareas: <br />
+1. Led B0 se activa al presionar el pulsador C0 
+2. Led B1 se activa al presionar el pulsador C1
+3. Leds D0:D3 se activan con el dip-switch B4:B7
+<p align="left">
   <img src="/images/st1_p887.png"></img>
 </p>
-Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog. la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion.
+<br />
 
-### - ST3 - Configuracion de Puertos [PIC 4MHZ]
+### - ST3 - Control de Puertos y Comunicacion [PIC 4MHZ]
 Con base al esquema de circuito MCU, se programaran las siguientes tareas: <br />
 1. Destello LED en pin RE2 cada segundo. (20% dt)
 2. Lectura pulsador RB4 para desplazamiento de leds RD0 al RD7
@@ -25,6 +29,7 @@ Con base al esquema de circuito MCU, se programaran las siguientes tareas: <br /
 <p align="left">
   <img src="/images/st3_p887.png"></img>
 </p>
+<br />
 
 ### - ST5 - Sistema de control ADC y Pantalla LCD [PIC 8MHz]
 Con base al esquema de circuito MCU, se programaran las siguientes tareas: <br />
