@@ -9,10 +9,21 @@ Cada carpeta del proyecto MPLABX tiene el nombre precedido por el numero de acti
 
 ## Lista de practicas desarrolladas con Microcontrolador
 ### - ST1 - Multiplexor de 2 Canales con datos de 4-bit [MUX2S4B]
+<p align="center">
+  <img src="/images/st1_p887.png"></img>
+</p>
 Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog. la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion.
+
 ### - ST3 - Multiplexor de 2 Canales con datos de 4-bit [MUX2S4B]
+<p align="center">
+  <img src="/images/st3_p887.png"></img>
+</p>
 Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog. la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion.
+
 ### - ST5 - Multiplexor de 2 Canales con datos de 4-bit [MUX2S4B]
+<p align="center">
+  <img src="/images/st5_p887.png"></img>
+</p>
 Este primer circuito muestra la implementacion de un multiplexor simple de dos canales para datos de 4-bit, la teoria y diseño de este circuito se describe mejor en el siguiente enlace a mi blog. la descripcion del modulo Verilog se efectuara a nivel del comportamiento, para las pruebas de funcionamiento utilizaremos conmutadores (switches) a cada entrada y diodos led en las salidas. Puedes ver el video de la implementacion.
 
 Autor: Pablo Zarate, puedes contactarme a pablinza@me.com / pablinzte@gmail.com.  <br />
