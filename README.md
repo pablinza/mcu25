@@ -1,6 +1,6 @@
 # Microcontroladores PIC/AVR pablinza@me.com
 Programacion de Microcontroladores en lenguaje C con el compilador oficial de Microchip __XC8__ <br />
-Carpeta con las practicas desarroladas durante el curso intensivo de Microcontroladores ELT-336 2025 de la UEB <br />
+Repositorio con las carpetas de proyectos desarrolados durante el curso intensivo de Microcontroladores ELT-336 2025 de la UEB <br />
 El software __MPLABX__ disponible en la pagina del fabricante Microchip [ --> Click](https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/MPLABX-v6.20-windows-installer.exe?authuser=0) <br />
 El compilador __XC8__ puedes descargalo utilizando este enlace [ --> Click](https://ww1.microchip.com/downloads/aemDocuments/documents/DEV/ProductDocuments/SoftwareTools/xc8-v2.50-full-install-windows-x64-installer.exe?authuser=0) <br />
 Para cargar el firmware al microcontrolador necesitaras un programador ICSP, como alternativa se utiliza el software __SimulIDE__ [ -->Click](https://simulide.com/p/) a efectos de verificar el funcionamiento <br />
